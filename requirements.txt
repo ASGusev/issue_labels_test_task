@@ -1,0 +1,8 @@
+pygithub
+numpy
+pandas
+scikit-learn
+nltk
+catboost
+matplotlib
+seaborn
