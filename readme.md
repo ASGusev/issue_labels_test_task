@@ -8,6 +8,6 @@ The [download_issues](/download_issues.py) script downloads issues from provided
 The download_issues.py script expects two arguments: repository in form <profile_name/repository_name> and target directory. The issues are saved in target directory as separate json files. React issues can be downloaded by: 
 > python3 download_issues.py facebook/react react_issues
 
-Github authorization is required to get enough request quota, so the script prompts for a github access token.
+Github authorization is required to get enough request quota, so the script prompts for a github access token. Even with the quota after authorization the download can take a long time.
 ### Running training
 The issue_labels_prediction.ipynb notebook can be executed sequentially provided that the React issues are downloaded to react_issues/ directory. 
